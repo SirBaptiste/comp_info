@@ -1,3 +1,12 @@
+*{
+	font-family : 'Arial';
+}
+#header{
+	font-size : 10px;
+}
+#footer{
+	font-size : 10px;
+}
 #par1{
 	background-color : #2980b9;
 }
