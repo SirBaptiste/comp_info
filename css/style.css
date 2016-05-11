@@ -25,14 +25,21 @@ h1{
 	background : url("../img/logo-iut.jpg") no-repeat center;
 	background-size : 300px;
 }
-@media screen and (max-width: 500px){
-	img{
-		width : 300px;
-	}
-}
 table, th, td {
    border: 1px solid black;
 }
 th{
 	background-color : grey;
+}
+@media screen and (max-width: 500px){
+	img{
+		width : 300px;
+	}
+	tr { 
+		display: block;
+		float: left;
+	}
+	th, td {
+		display: block;
+	}
 }
