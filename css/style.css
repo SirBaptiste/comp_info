@@ -25,6 +25,6 @@ h1{
 	}
 }
 #formulaire{
-	background : url("img/logo-iut.jpg") no-repeat center;
+	background : url("../img/logo-iut.jpg") no-repeat center;
 	background-size : auto 300px;
 }
