@@ -1,5 +1,7 @@
 html{
 	font-size : 62.5%;
+	background-image : url("../img/bg.jpg");
+	background-size : contain;
 }
 *{
 	font-family : 'Arial';
@@ -11,15 +13,6 @@ h1{
 }
 #header, #footer{
 	font-size : 10px;
-}
-#par1{
-	background-color : #2980b9;
-}
-#par2{
-	background-color : #ecf0f1;
-}
-#par3{
-	background-color : #e74c3c;
 }
 #formulaire{
 	background : url("../img/logo-iut.jpg") no-repeat center;
@@ -35,11 +28,15 @@ th{
 	img{
 		width : 300px;
 	}
-	tr { 
-		display: block;
-		float: left;
+	table, tr{
+		width : 100%;
 	}
 	th, td {
-		display: block;
+		display: table-row;
+		width : 100%;
+		text-align : center;
+	}
+	tr{
+		display : table;
 	}
 }
