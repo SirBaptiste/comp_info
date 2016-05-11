@@ -19,3 +19,8 @@ h1{
 #par3{
 	background-color : #e74c3c;
 }
+@media max-width: 500px{
+	img{
+		width : 300px;
+	}
+}
